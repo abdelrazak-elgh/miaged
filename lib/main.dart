@@ -6,5 +6,5 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   // initialize the Firebase app in the application.
   await Firebase.initializeApp();
-  runApp(const App());
+  runApp(App());
 }
